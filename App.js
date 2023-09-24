@@ -1,9 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import HelloWorld from './components/Experimentos/01HelloWorld';
-import Hello2 from './components/Experimentos/02Hello2';
-import HelloGift from './components/Experimentos/02HelloGift';
-import MyCat from './components/Experimentos/03MyCat';
+
 
 
 // export default function App() {
@@ -50,15 +47,15 @@ import MyCat from './components/Experimentos/03MyCat';
 //     );
 // }
 
-import Questao01 from './components/Tarefas/Tarefa01/Questao01';
+// import Questao01 from './components/Tarefas/Tarefa01/Questao01';
 
-export default function App() {
-    return (
-      <View style={styles.container}>
-         <Questao01 />
-      </View>
-    );
-}
+// export default function App() {
+//     return (
+//       <View style={styles.container}>
+//          <Questao01 />
+//       </View>
+//     );
+// }
 
 // import Questao03 from './components/Tarefas/Tarefa01/Questao03';
 
@@ -70,12 +67,68 @@ export default function App() {
 //     );
 // }
 
+// import MyTextInput from './components/Experimentos/07Textimput';
+
+// export default function App() {
+//     return (
+//       <View style={styles.container}>
+//          <MyTextInput />
+//       </View>
+//     );
+// }
+// import Atividade from './components/Experimentos/07Atividade';
+// export default function App() {
+//     return (
+//       <View style={styles.container}>
+//          <Atividade />
+//       </View>
+//     );
+// }
+
+// import Calculadora from './components/Experimentos/09Calculadora/09Calculadora';
+// export default function App() {
+//     return (
+//       <View style={styles.container}>
+//          <Calculadora />
+//       </View>
+//     );
+// }
+
+
+// import MyFlexbox from './components/Experimentos/13_Flexbox/13Flexbox';
+// export default function App() {
+//     return (
+//          <MyFlexbox />
+//     );
+// }
+
+// import MyNetworking from './components/Experimentos/14_Networking/MyNetworking';
+// export default function App() {
+//     return (
+//          <MyNetworking />
+//     );
+// }
+
+// import MainPage from './components/Experimentos/15_Navigation/15.1_Stack/MainPage';
+// export default function App() {
+//     return (
+//          <MainPage />
+//     );
+// }
+
+import MainPage from './components/Tarefas/Tarefa_02/MainPage';
+export default function App() {
+    return (
+         <MainPage />
+    );
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#C0C0C0',
     alignItems: 'center',
     justifyContent: 'center',
-    padding:10
+    
   },
 });
