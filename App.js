@@ -116,10 +116,24 @@ import { StyleSheet, Text, View } from 'react-native';
 //     );
 // }
 
-import MainPage from './components/Tarefas/Tarefa_02/MainPage';
+// import MainPage from './components/Tarefas/Tarefa_02/MainPage';
+// export default function App() {
+//     return (
+//          <MainPage />
+//     );
+// }
+
+// import PokemonApp from './components/Tarefas/Tarefa_02/MainPage';
+// export default function App() {
+//     return (
+//          <PokemonApp />
+//     );
+// }
+
+import Questao01 from './components/Provas/AP01/Main';
 export default function App() {
     return (
-         <MainPage />
+         <Questao01 />
     );
 }
 
